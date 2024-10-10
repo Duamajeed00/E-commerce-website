@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Products } from './products';
+import { Products } from './Products';
 
 export default function NewArrivals() {
   return (

@@ -1,0 +1,36 @@
+export const Products = [
+    {
+      id: 1,
+      name: 'T-shirt with Tape Details',
+      price: 120,
+      rating: 4.5,
+      image: '/Frame 32.png',
+      discount: null,
+    },
+    {
+      id: 2,
+      name: 'Skinny Fit Jeans',
+      price: 240,
+      originalPrice: 260,
+      rating: 3.5,
+      discount: 20,
+      image: '/Frame 33.png',
+    },
+    {
+      id: 3,
+      name: 'Checkered Shirt',
+      price: 180,
+      rating: 4.5,
+      image: '/Frame 34.png',
+      discount: null,
+    },
+    {
+      id: 4,
+      name: 'Sleeve Striped T-shirt',
+      price: 130,
+      originalPrice: 160,
+      rating: 4.5,
+      discount: 30,
+      image: '/Frame 38.png',
+    },
+  ];

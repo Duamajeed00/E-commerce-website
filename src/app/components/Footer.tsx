@@ -32,7 +32,7 @@ const Footer = () => {
               <div className="w-full sm:w-1/4 px-5 mb-6">
                 <h4 className="text-xl font-bold text-black mb-4">SHOP.CO</h4>
                 <p className="text-gray-600">
-                  We have clothes that suit your style and which you're proud to
+                  We have clothes that suit your style and which you are proud to
                   wear. From women to men.
                 </p>
                 <div className="flex justify-center sm:justify-start mt-4 space-x-4">

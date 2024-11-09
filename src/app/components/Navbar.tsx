@@ -37,10 +37,10 @@ const Navbar = () => {
 
       {/* Links */}
       <ul className={`lg:flex lg:space-x-6 ${isOpen ? "block" : "hidden"} lg:block`}>
-        <li><Link href="#" className="text-gray-600 hover:text-black block lg:inline">Shop</Link></li>
-        <li><Link href="#" className="text-gray-600 hover:text-black block lg:inline">On Sale</Link></li>
+        <li><Link href="/Shop" className="text-gray-600 hover:text-black block lg:inline">Shop</Link></li>
+        <li><Link href="/On Sale" className="text-gray-600 hover:text-black block lg:inline">On Sale</Link></li>
         <li><Link href="/NewArrivals" className="text-gray-600 hover:text-black block lg:inline">New Arrivals</Link></li>
-        <li><Link href="#" className="text-gray-600 hover:text-black block lg:inline">Brands</Link></li>
+        <li><Link href="/Brands" className="text-gray-600 hover:text-black block lg:inline">Brands</Link></li>
       </ul>
       
       {/* Search Input */}

@@ -1,45 +1,50 @@
-// import Image from "next/image";
 
-// const Hero = () => {
-//     return (
-//       <section className="flex justify-between items-center px-16 py-12 bg-gray-50">
-//         <div>
-//           <h1 className="text-5xl font-bold mb-4">Find Clothes That Matches Your Style</h1>
-//           <p className="text-lg text-gray-700 mb-6">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
-//           <button className="bg-black text-white px-6 py-3 rounded-md">Shop Now</button>
-//         </div>
-//         <Image width={500} height={500} src="/pic1.jpg" alt="Clothing Style" className="w-1/2" />
-//       </section>
-//     );
-//   };
-  
-//   export default Hero;
-
+import React from "react";
 import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col lg:flex-row justify-between items-center px-8 lg:px-16 py-12 bg-gray-50">
-      <div className="text-center lg:text-left mb-8 lg:mb-0 lg:w-1/2">
-        <h1 className="text-3xl lg:text-5xl font-bold mb-4">
-          Find Clothes That Match Your Style
+    <div className="relative h-screen w-full bg-[#F2F0F1]">
+      {/* Background Image */}
+      <div>
+        <Image src="/hero1.jpg" layout="fill" objectFit="cover" alt="hero" />
+      </div>
+
+      {/* Stars */}
+      <div className="absolute top-56 mr-52 right-96">
+        <Image src="/Vector (1).png" alt="small star" height={56} width={56} />
+      </div>
+      <div className="absolute top-20 right-10">
+        <Image src="/Vector.png" alt="large star" height={104} width={104} />
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 p-12 flex flex-col items-start justify-center h-full">
+        <h1 className="text-6xl font-extrabold leading-tight text-black drop-shadow-2xl tracking-wide">
+          FIND CLOTHES <br /> THAT MATCHES <br /> YOUR STYLE
         </h1>
-        <p className="text-md lg:text-lg text-gray-700 mb-6">
-          Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.
+        <p className="mt-6 text-lg text-gray-600 drop-shadow-md leading-relaxed max-w-2xl">
+          Browse through our diverse range of meticulously crafted garments,
+          designed to bring out your individuality and cater to your sense of
+          style.
         </p>
-        <button className="bg-black text-white px-6 py-3 rounded-md">Shop Now</button>
+        <button className="mt-8 px-14 py-4 bg-black text-white font-semibold rounded-full shadow-xl transform hover:scale-110 hover:bg-gray-800 transition duration-300 ease-in-out focus:outline-none focus:ring-4 focus:ring-gray-400">
+          Shop Now
+        </button>
       </div>
-      <div className="flex justify-center lg:w-1/2">
-        <Image
-          width={500}
-          height={500}
-          src="/pic1.jpg"
-          alt="Clothing Style"
-          className="w-full max-w-xs md:max-w-sm lg:max-w-md"
-        />
+      <div className="bg-black w-full h-[122px] mb-10 pt-12 px-10">
+        <div className="flex justify-between items-center">
+        <Image src="/brand1.jpg" alt="brand" height={33} width={166} />
+        <Image src="/brand2.jpg" alt="brand" height={38} width={91} />
+        <Image src="/brand3.jpg" alt="brand" height={36} width={156} />
+        <Image src="/brand4.jpg" alt="brand" height={32} width={194} />
+        <Image src="/brand5.jpg" alt="brand" height={33} width={206} />
+        </div>
       </div>
-    </section>
+    </div>
   );
 };
 
 export default Hero;
+
+

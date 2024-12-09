@@ -40,9 +40,9 @@ const Testimonials = () => {
             </div>
             <p className="font-semibold text-lg">Sarah M.</p>
             <p className="text-gray-600 mt-2">
-              "I'm blown away by the quality and style of the clothes I received
-              from ShopCo. From casual wear to elegant dresses, every piece I've
-              bought has exceeded my expectations."
+            I am blown away by the quality and style of the clothes I received
+              from ShopCo  From casual wear to elegant dresses every piece I have
+              bought has exceeded my expectations
             </p>
           </div>
 
@@ -65,10 +65,10 @@ const Testimonials = () => {
             </div>
             <p className="font-semibold text-lg">Alex K.</p>
             <p className="text-gray-600 mt-2">
-              "Finding clothes that align with my personal style used to be a
+              Finding clothes that align with my personal style used to be a
               challenge until I discovered ShopCo. The range of options they
-              offer is truly remarkable, catering to a variety of tastes and
-              occasions."
+              offer is truly remarkable catering to a variety of tastes and
+              occasions
             </p>
           </div>
 
@@ -91,10 +91,10 @@ const Testimonials = () => {
             </div>
             <p className="font-semibold text-lg">James L.</p>
             <p className="text-gray-600 mt-2">
-              "As someone who's always on the lookout for unique fashion pieces,
-              I'm thrilled to have stumbled upon ShopCo. The selection of
+              As someone who s always on the lookout for unique fashion pieces
+              I am thrilled to have stumbled upon ShopCo. The selection of
               clothes is not only diverse but also on-point with the latest
-              trends."
+              trends
             </p>
           </div>
         </div>
